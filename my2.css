@@ -1,0 +1,217 @@
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+99,d2ff52+99,91e842+100,d2ff52+100&1+0,0.95+100 */
+background: -moz-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(210,255,82,0.95) 99%, rgba(210,255,82,0.95) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(210,255,82,1) 0%,rgba(210,255,82,0.95) 99%,rgba(210,255,82,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(210,255,82,1) 0%,rgba(210,255,82,0.95) 99%,rgba(210,255,82,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#f2d2ff52',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+
+
+
+.my_buttona {       
+
+ 
+   
+  
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width:40%;;
+    height:9%;
+    line-height:50%;
+     text-align: center;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+ top: 20%;
+left: 30%;
+    
+
+
+}
+
+
+
+.my_button2 {    
+ 
+   
+   max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width:40%;;
+    height:9%;
+    line-height:50%;
+     text-align: center;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+  top: 30%;
+
+    left: 30%;
+  
+ }
+.my_button3 {      
+   
+   max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width:40%;;
+    height:9%;
+    line-height:50%;
+     text-align: center;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+       position: absolute;
+ 
+ top: 40%;
+    left: 30%;
+
+}
+.my_button4 {     
+   
+   max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width:40%;;
+    height:9%;
+    line-height:50%;
+     text-align: center;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+ 
+ top: 50%;
+    left: 30%;
+
+}
+ 
+ 
+
+ .my_button5  {
+
+    
+ 
+   
+   max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width:40%;;
+    height:9%;
+    line-height:50%;
+     text-align: center;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+ 
+
+    left:30%;
+    top: 60%;
+
+}
+.my_button6 {     
+   
+   
+    background:#0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+      width: 40.3%;
+    height:9%;
+    line-height:50%;
+   border: 0;
+    border-radius: 2%;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+ 
+
+    left: 30%;
+    top:70%;
+    
+}
+
+.my_buttona:hover {
+  background: #E42433;
+}
+.my_button2:hover { 
+  background:#E42433;
+}
+.my_button3:hover { 
+  background: #E42433; 
+}
+.my_button4:hover {
+  background: #E42433;
+}
+.my_button5:hover { 
+  background: #E42433;
+}
+.my_button6:hover {
+  background: #E42433; 
+}
+
+
+#img{
+
+display: none;
+
+}
+#img1{      
+display: none;
+
+}
+#img2{
+     
+display: none;
+  
+    
+    
+}
+#img3{ display: none;
+
+  
+    
+    
+}
+#img4{
+display: none;
+
+    
+}
+#img5{ 
+
+display: none;
+
+    
+    
+}

@@ -1,0 +1,304 @@
+
+.navbar-default{
+    background-color:red;
+    border-color: green;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2ff52+99,d2ff52+99,91e842+100,d2ff52+100&1+0,0.95+100 */
+background: -moz-linear-gradient(-45deg, rgba(210,255,82,1) 0%, rgba(210,255,82,0.95) 99%, rgba(210,255,82,0.95) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(210,255,82,1) 0%,rgba(210,255,82,0.95) 99%,rgba(210,255,82,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(210,255,82,1) 0%,rgba(210,255,82,0.95) 99%,rgba(210,255,82,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#f2d2ff52',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */ 
+}
+
+
+.col-md-4{
+   
+}
+
+
+.my_buttona {       
+
+ 
+   
+ 
+   border-radius: 2%;
+  
+
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background: #0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+ 
+    left: 16.8%;
+    top: 33.3%;
+      
+
+
+    
+
+
+}
+
+
+
+.my_button2 {    
+max-width:100%;
+        border-radius: 2%;
+
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background: #0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+      position: absolute;
+ 
+    left: 16.8%;
+       top:74.55%;
+  
+
+}
+.my_button3 {     border-radius: 2%;
+  
+
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background: #0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 38.4%;
+    top: 33.3%;
+ 
+}
+.my_button4 {      border-radius: 2%; max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+  
+
+
+    background: #0097ff;
+    color: #fff;
+    font-family: serif;
+
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+
+    left: 38.4%;
+   top:74.55%;
+
+
+}
+ 
+ 
+
+ .my_button5  {
+
+  border-radius: 2%;
+  
+
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background: #0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+     left: 60.4%;
+top: 33.3%
+    
+
+}
+.my_button6 {      border-radius: 2%;
+  
+
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+    background: #0097ff;
+    color: #fff;
+    font-family: Sans-serif;
+        font-weight: bolder;
+        width: 18.3%;
+    height:9%;
+    line-height:50%;
+    margin:1.8% 1.8%;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 60.4%;
+   top:74.55%;
+
+}
+
+.my_buttona:hover {
+  background: #E42433;
+}
+.my_button2:hover { 
+  background:#E42433;
+}
+.my_button3:hover { 
+  background: #E42433; 
+}
+.my_button4:hover {
+  background: #E42433;
+}
+.my_button5:hover { 
+  background: #E42433;
+}
+.my_button6:hover {
+  background: #E42433; 
+}
+
+
+#img{
+
+max-width:100%;
+    max-height 100%;
+     min-height:auto;
+     min-width:auto;
+      width: 18.3%;
+
+  position: absolute;
+ 
+    left: 18.59%;
+    top:18.6%;  
+
+}
+#img1{      
+
+
+    max-width:100%;
+    max-height 100%;
+     min-height:auto;
+     min-width:auto;
+
+      width: 18.3%;
+
+    position: absolute;
+ 
+    left: 18.63%;
+      top: 58.55%;  
+
+    
+}
+#img2{
+     
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+
+       width: 18.3%;
+
+  position: absolute;
+         
+
+    left: 40.20%;
+         top: 17.60%;  
+    
+    
+}
+#img3{ max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+
+       width: 18.3%;
+
+  position: absolute;
+     top: 40%;  
+
+    left: 40.2%;
+      top: 58.4%;  
+  
+    
+    
+}
+#img4{
+ max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+
+      width: 18.3%;
+
+    position: absolute;
+         top: 17.59%;  
+
+    left: 62.2%;
+    
+    
+}
+#img5{ 
+
+max-width:100%;
+        max-height 100%;
+     min-height:auto;
+     min-width:auto;
+
+      width: 18.3%;
+
+   position: absolute;
+    left: 62.2%;
+   top: 57.5%;  
+    
+    
+}
