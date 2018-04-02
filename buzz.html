@@ -6,6 +6,7 @@
 
     <script src="js/bootstrap.min.js"></script>
      <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
     
 </head>
 <body>
@@ -18,10 +19,8 @@
 </head>
 <body >
 
-	
-    
- 
-    
+
+
     <div class="container-fluid">    
     
   
@@ -56,10 +55,31 @@
 </div>
 
 	 
-    <script
-			  src="https://code.jquery.com/jquery-3.3.1.js"
-			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			  crossorigin="anonymous"></script>
+  <script>
+	
+    
+ (function() {
+  if ($('.bbfb-video').length === 0) return;
+  $('.bbfb-video').each(function() {
+     var fb = this,
+     id = this.id;
+    $(fb).click( function() {
+      var href = $(this).attr('data-link');
+      $(this).empty();
+      $(this).append('<div class="fb-video" data-allowfullscreen="true" data-href="'+href+'" data-width="500" data-show-text="false"></div>');
+      //Re-parse the parent
+      FB.XFBML.parse(document.getElementById(id));
+      //Autoplay
+      FB.Event.subscribe('xfbml.ready', function(msg) {
+        if (msg.type === 'video') {
+          msg.instance.play();
+        }
+      });
+    });
+  });
+})();
+
+    </script>
 	
 	
 	<!-- Load Facebook SDK for JavaScript -->
